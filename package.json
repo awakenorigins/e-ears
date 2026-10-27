@@ -1,0 +1,20 @@
+{
+  "name": "e-ears",
+  "version": "1.0.0",
+  "description": "AI Music Analysis Skill for OpenClaw — BPM, key, mood, structure, vocals, lyrics, comparison",
+  "author": "La MulaPC1 (Mula Nacharis)",
+  "license": "MIT",
+  "keywords": ["music", "audio", "analysis", "BPM", "key", "mood", "vocals", "lyrics", "whisper", "librosa"],
+  "engines": {
+    "python": ">=3.12"
+  },
+  "dependencies": {
+    "librosa": ">=0.11.0",
+    "soundfile": ">=0.13.0",
+    "numpy": ">=1.26.0",
+    "scipy": ">=1.17.0"
+  },
+  "optionalDependencies": {
+    "openai-whisper": "for lyrics transcription"
+  }
+}
